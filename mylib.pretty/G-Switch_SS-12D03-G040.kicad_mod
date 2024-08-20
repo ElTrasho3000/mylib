@@ -1,0 +1,201 @@
+(footprint "G-Switch_SS-12D03-G040"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f23d4b79-d1b1-4045-a465-0a1318ffe8aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "G-Switch_SS-12D03-G040"
+		(at 0 7.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d6b8de8-ab90-41c6-9193-7812dc2b9fca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "mylib:G-Switch_SS-12D03-G040"
+		(at 5.5 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "22ed5645-ec9c-43ca-b0d1-d753a0ef165f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2108150430_G-Switch-SS-12D03-G040_C2876027.pdf"
+		(at 5.5 3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b722d0b9-0b9d-4fdf-a290-03853f51c4c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Description" ""
+		(at 5 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "177dfeeb-930d-4d66-ad42-cd163f6ef271")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.5 2.5)
+		(end 0 2.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0d72c8f3-cb5a-4ad6-973b-42eae9abb8c2")
+	)
+	(fp_line
+		(start -2.5 4)
+		(end -2.5 2.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6294f691-fdba-4ad6-b724-b4ba8d4cd54f")
+	)
+	(fp_line
+		(start 0 2.5)
+		(end 0 4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dff5c643-a139-4d74-90f0-30995c037c2c")
+	)
+	(fp_line
+		(start 0 2.7)
+		(end 0 1.5)
+		(stroke
+			(width 0.15)
+			(type dot)
+		)
+		(layer "F.SilkS")
+		(uuid "34798e2f-2158-41d4-a15c-634c3ca88796")
+	)
+	(fp_line
+		(start 0.35 1.5)
+		(end 2.45 1.5)
+		(stroke
+			(width 0.15)
+			(type dot)
+		)
+		(layer "F.SilkS")
+		(uuid "6e6c4a39-06e1-461c-9d96-b78c8675d42a")
+	)
+	(fp_line
+		(start 2.5 1.5)
+		(end 2.5 3.5)
+		(stroke
+			(width 0.15)
+			(type dot)
+		)
+		(layer "F.SilkS")
+		(uuid "b84be417-60b0-43ac-a435-77e6953c2b21")
+	)
+	(fp_line
+		(start 2.5 3.5)
+		(end 2.5 4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a0c84329-a268-4147-a860-6a9178b905cf")
+	)
+	(fp_rect
+		(start -4.35 0.2)
+		(end 4.35 3.8)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "c652afd4-baa6-481b-b8df-d9d92f4123f3")
+	)
+	(fp_rect
+		(start -4.5 0)
+		(end 4.5 6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "7e8660d3-b542-4d44-83b2-2186a7eb4f14")
+	)
+	(pad "1" thru_hole circle
+		(at 0 5)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e6362c5c-1cd6-42bb-ace1-fe47eee27bed")
+	)
+	(pad "2" thru_hole circle
+		(at -2.5 5)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "92934e49-4c5a-4757-85b7-475508f5c48f")
+	)
+	(pad "3" thru_hole circle
+		(at 2.5 5)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "00a3850e-96d7-462c-b070-657dc7d5474d")
+	)
+	(model "/home/user/Dokumente/KiCad/mylib/3Dmodels/G-Switch/G-Switch_SS-12D03-G040.step"
+		(offset
+			(xyz -4.35 -3.75 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
